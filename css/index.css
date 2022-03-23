@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#product-section{
+    text-align: center;
+}
+#product-section .product1{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(108, 10, 138);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.6);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    
+}
+
+#product-section .product1:hover{
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 1);
+}
+
+#product-section .product1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product-section .product1  .descript-pixi{
+    text-align: start;
+    padding: 10px 0;
+}
+#product-section h2{
+    font-size: 30px;
+    padding: 40px 40px;
+}
+#product-section  p{
+    font-size: 20px;
+}
+#product-section .product1  .descript-pixi span{
+    color: purple;
+    font-weight: 1000;
+    font-family: 'Ubuntu' , sans-serif;
+    font-size: 15px;
+}
+#product-section .product1  .descript-pixi h5{
+    padding-top: 7px;
+    font-size: 14px;
+
+}
+#product-section .product1  .descript-pixi i{
+    font-size: 30px;
+    color: rgb(233, 200, 13);
+    
+}
+#product-section .product1  .descript-pixi h4{
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(23, 129, 13);
+
+}
+#product-section .product1  .cart{
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: rgb(7, 160, 58);
+    color: rgb(0, 0, 0);
+    border-color: 1px solid blue;
+    
+   
+    
+
+   
+
+  
+    
+}
+#product-section .product-container-pixidux{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#trending{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ #trending .trending-box h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    transition: ease  1s;
+    
+    
+}
+.trending-box h6:hover{
+    background: rgb(143, 2, 143);
+    
+}
+.trending-section-111{
+    padding: 10px 100px;
+   
+}
+.trending-box img{
+    width: 180px;
+    height: 30vh;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 1);
+    border: 0.1px solid black;
+    transition: all 0.3s;
+    
+}
+
+.trending-box img:hover{
+    box-shadow: 0px 0px 40px rgb(125, 7, 194)
+}
+   
+ 
+   
+
+
+#preloader{
+    width: 100%;
+    background: rgb(255, 255, 255) url(images/1495.gif) no-repeat center;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+
+}
+
+/*navbar------------styling----------------------*/
+.navbar{
+    
+    position: fixed;
+    padding: 30px 0;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+
+}
+.navbar.sticky{
+    background: black;
+    padding: 15px 0;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+
+}
+.navbar.sticky .logo a{
+    color: white;
+}
+.navbar .logo a span{
+    color: rgb(162, 44, 185);
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar .menu li a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+
+}
+.navbar.sticky li a{
+    color: white;
+}
+.navbar .menu li a:hover{
+    color: rgb(176, 10, 226);
+}
+/*-----------menu-btn-styling----------------*/
+.menu-btn{
+    color: rgb(204, 0, 255);
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+/*------home-section-stylling-----*/
+.home{
+    display: flex;
+    background: rgb(243, 237, 245);
+    
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0;
+
+}
+.home  .column-left img{
+     margin-left: 300px;
+     margin-top: 100px;
+     
+     
+     
+      
+}
+.home .home-content .text-1{
+          font-size: 27px;
+          
+}
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-2 span{
+    color: rgb(165, 27, 184);
+    font-size: 75px;
+    margin: 5px 0;
+}
+ 
+
+
+
+
+
+/*--------------Responsive-------media query----------------------*/
+@media (max-width: 947px){
+
+.trending-section-111{
+    padding: 10px 10px;
+   
+}
+.trending-box img{
+    width: 70px;
+    height: 11vh;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.3);
+    border: 0.2px solid black;
+    transition: all 0.3s;
+    
+}
+
+.trending-box img:hover{
+    box-shadow: 0px 0px 40px rgb(125, 7, 194)
+}
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    
+    
+    .max-width{
+
+        padding: 0 50px;
+      
+    
+    }
+    .navbar .menu li a{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: 500;
+        margin: 20px 0;
+        transition: color 0.3s ease;
+        display: inline-block;
+        
+    
+    }
+    .navbar .menu{
+        position: fixed;
+        background: rgb(0, 0, 0);
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+
+     
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+
+    }
+    .home .home-content .text-1{
+        font-size: 23px;
+        
+}
+.home .home-content .text-2 {
+  font-size: 65px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+    .home  .column-left img{
+      display: none;
+        
+        
+        
+         
+   }
+
+
+
+
+
+   #product-section{
+    text-align: center;
+}
+#product-section .product1{
+    width: 100%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(108, 10, 138);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.6);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    
+}
+
+#product-section .product1:hover{
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 1);
+}
+
+#product-section .product1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product-section .product1  .descript-pixi{
+    text-align: start;
+    padding: 10px 0;
+}
+#product-section h2{
+    font-size: 30px;
+    padding: 40px 40px;
+}
+#product-section  p{
+    font-size: 20px;
+}
+#product-section .product1  .descript-pixi span{
+    color: purple;
+    font-weight: 1000;
+    font-family: 'Ubuntu' , sans-serif;
+    font-size: 15px;
+}
+#product-section .product1  .descript-pixi h5{
+    padding-top: 7px;
+    font-size: 14px;
+
+}
+#product-section .product1  .descript-pixi i{
+    font-size: 30px;
+    color: rgb(233, 200, 13);
+    
+}
+#product-section .product1  .descript-pixi h4{
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(23, 129, 13);
+
+}
+#product-section .product1  .cart{
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: rgb(7, 160, 58);
+    color: rgb(0, 0, 0);
+    border-color: 1px solid blue;
+    
+   
+    
+
+   
+
+  
+    
+}
+#product-section .product-container-pixidux{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+   
+       
+
+}
