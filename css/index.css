@@ -216,8 +216,9 @@
 
 }
 .home  .column-left img{
-     margin-left: 300px;
+     margin-left: 50px;
      margin-top: 100px;
+     
      
      
      
@@ -253,12 +254,17 @@
 }
 .trending-box img{
     width: 70px;
-    height: 11vh;
+    height: 12vh;
     box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.3);
     border: 0.2px solid black;
     transition: all 0.3s;
     
 }
+#trending .trending-box h6{
+    font-size: 10px;
+
+}
+
 
 .trending-box img:hover{
     box-shadow: 0px 0px 40px rgb(125, 7, 194)
@@ -334,9 +340,9 @@
 }
 #product-section .product1{
     width: 100%;
-    min-width: 250px;
-    padding: 10px 12px;
-    border: 1px solid rgb(108, 10, 138);
+    min-width: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgba(108, 10, 138);
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.6);
     margin: 15px 0;
@@ -357,7 +363,7 @@
     padding: 10px 0;
 }
 #product-section h2{
-    font-size: 30px;
+    font-size: px;
     padding: 40px 40px;
 }
 #product-section  p{
