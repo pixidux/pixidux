@@ -4,23 +4,23 @@
 }
 @font-face {
     font-family: 'Georgia2';
-    src: url(/themes/fonts/playfair-display_bold.woff2);
+    src: url(../themes/fonts/playfair-display_bold.woff2);
 }
 @font-face {
     font-family: 'trechbuchet-italic';
-    src: url(/themes/fonts/TrebuchetMS-Italic.woff);
+    src: url(../themes/fonts/TrebuchetMS-Italic.woff);
 }
 @font-face {
     font-family: 'trechbuchet';
-    src: url(/themes/fonts/TrebuchetMS.woff);
+    src: url(../themes/fonts/TrebuchetMS.woff);
 }
 @font-face {
     font-family: 'trechbuchetbold';
-    src: url(/themes/fonts/TrebuchetMS-Bold.woff);
+    src: url(../themes/fonts/TrebuchetMS-Bold.woff);
 }
 @font-face {
     font-family: 'trechbuchetak';
-    src: url(/themes/fonts/akk.woff);
+    src: url(../themes/fonts/akk.woff);
 }
 
 
