@@ -395,9 +395,67 @@ transition: 0.3s ease-in-out;
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 865px) {
    
-   .aligncenter{
-       max-width: 400px;
+   .content{
+       width: 100%;
    }
+ 
+.content, .content-sidebar-sidebar .content, .content-sidebar-sidebar .content-sidebar-wrap, .footer-widgets-1, .footer-widgets-2, .home-middle .featured-content .entry, .sidebar-content-sidebar .content, .sidebar-content-sidebar .content-sidebar-wrap, .sidebar-primary, .sidebar-secondary, .sidebar-sidebar-content .content, .sidebar-sidebar-content .content-sidebar-wrap, .site-header .widget-area {
+    width: 100%;
+}
+.aligncenter{
+    width: 360px;
+    height: 310px;
+}
+/*-------------------topnavbar-------------------------*/
+
+.nav-links {
+    background-color: #f7f7f7;
+    border-top: 4px solid #222
+}
+.menu-top{
+    clear: both;
+    color: #222;
+    font-family: 'trechbuchetak',sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+}
+
+.nav-links .menu-top {
+    font-size: 13px
+}
+
+
+.wrap {
+    margin: 0 auto;
+    max-width: 940px;
+}
+.menu-top .menu-item{
+    display: inline-block;
+    text-align: center;
+}
+.nav-links .menu-top a {
+    padding: 8px;
+    text-decoration: none;
+}
+.menu-top a {
+    color: #333;
+    display: block;
+    cursor: pointer;
+}
+.menu-top a:hover{
+     color: rgb(212, 44, 44);
+}
+/*-------------------topnavbarclose-------------------------*/
+.header-image .site-header .title-area{
+    padding: 0;
+}
+.site-header{
+    padding: 0;
+}
   }
