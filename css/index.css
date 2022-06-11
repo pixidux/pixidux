@@ -557,11 +557,12 @@ transition: 0.3s ease-in-out;
  text-transform: uppercase;
     
     text-align: center;
-    width: 120px;
+    max-width: 112px;
     letter-spacing: 1px;
-    margin-left: 1px;
+    
     
     display: inline-block;
+   
     }
    .dropbtn{
        display: inline;
@@ -641,7 +642,7 @@ transition: 0.3s ease-in-out;
     font-size: 17px;
     border: none;
     cursor: pointer;
-    padding: 5px 120px;
+    padding: 5px 112px;
     margin-left: 1px;
    
 
