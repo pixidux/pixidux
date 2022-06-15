@@ -57,6 +57,9 @@ a {
     
     text-decoration: none;
 }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
 /*-------------------topnavbar-------------------------*/
 
 .nav-links {
@@ -483,6 +486,117 @@ transition: 0.3s ease-in-out;
     color: rgb(212, 44, 44);
 }
 
+.sidebar-primary{
+    float: right;
+    width: 300px;
+    margin-top: 7px;
+}
+.intro {
+    font-family: 'trechbuchetak',Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #f7f7f7;
+    text-align: center;
+}
+.intro-links {
+    font-family: 'Georgia',Arial,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 6px 0 7px 0;
+    border-bottom: 2px solid #f7f7f7;
+}
+.intro-links a{
+    text-decoration: none!important;
+    display: inline!important;
+    text-align: center!important;
+    color: #222;
+    padding: 0 9px;
+    
+}
+.intro-links a:hover{
+    color: rgb(212, 44, 44);
+    
+}
+.social-linksside a{
+	
+    font-size: 50px;
+    text-decoration: none!important;
+    display: inline!important;
+    text-align: center!important;
+    color: #222;
+    padding: 0 9px;
+    	
+}
+.social-linksside a:hover{
+    color: rgb(212, 44, 44);
+}
+#enews-ext-2 {
+    border: 2px solid #222;
+    padding: 7px 8px 3px;
+}
+#enews-ext-2 .widget-title {
+    display: inline-block;
+    width: 100%;
+    
+    clear: both;
+    font-size: 26px;
+    letter-spacing: 0;
+}
+#enews-ext-2 input {
+    width: 60%;
+    clear: left;
+}
+.enews-widget input {
+    margin-bottom: 4px;
+    width: 50%;
+}
+#enews-ext-2 input[type="submit"] {
+    width: auto;
+}
+.enews-widget input, select, textarea {
+    padding: 6px 6px 5px;
+}
+.enews-widget input[type="submit"] {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #222;
+    margin: 0;
+    font-size: 18px;
+    text-decoration: none;
+}
+.enews-widget input[type="submit"]:hover {
+    background-color: rgb(212, 44, 44);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0;
+    
+    text-decoration: none;
+}
+.sidebar .widget {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -649,8 +763,8 @@ transition: 0.3s ease-in-out;
     font-size: 17px;
     border: none;
     cursor: pointer;
-    padding: 5px 114px;
-   
+    padding: 5px 119px;
+    margin-left: 1px;
    
 
     
@@ -726,6 +840,9 @@ h2 {
     text-align: center;
 }
   
+.sidebar-primary{
+    display: none;
+}
 
 
   }
